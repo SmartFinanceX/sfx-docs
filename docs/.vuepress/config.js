@@ -1,0 +1,35 @@
+import { defaultTheme } from 'vuepress'
+
+export default {
+    title: 'SmartFinanceX', // 设置网站标题
+    description: '智能金融！主打的就是一个智能',
+    base: '/', //默认路径
+    head: [
+        // 设置 favor.ico，.vuepress/public 下
+        [
+            'link', { rel: 'icon', href: 'logo.png' }
+        ]
+    ],
+    theme: defaultTheme({
+        // 默认主题配置
+        navbar: [
+            {
+                text: '首页',
+                link: '/',
+            },
+            {
+                text: 'API',
+                children: ['/API/1.md', '/API/2.md']
+            },
+            {
+                text: '简介',
+                link: '/guide'
+            }
+        ],
+        home: '/',
+        logo: '/logo_big.png',
+        lastUpdated: true,
+        notFound: ["404了，联系AntiOxidant让他去改吧"],
+        backToHome: ["返回首页"],
+    }),
+}
