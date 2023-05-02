@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a3091714","path":"/Script/SQL.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"权限系统","slug":"权限系统","link":"#权限系统","children":[]}],"git":{"updatedTime":1683045435000,"contributors":[{"name":"AntiO2","email":"1219935161@qq.com","commits":1}]},"filePathRelative":"Script/SQL.md"}');export{t as data};
