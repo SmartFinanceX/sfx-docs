@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo_color.png
+heroImage: /logo.png
 heroText: 上市公司财务分析系统🦄
 tagline: 
 actions:
@@ -17,6 +17,6 @@ features:
     details: 什么都还没做
   - title: 技术低下😼
     details: 撒也不懂！
- 
----
 
+footer: 2023©SmartFinanceX
+---

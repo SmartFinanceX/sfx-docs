@@ -4,6 +4,7 @@ export default {
     title: 'SmartFinanceX', // 设置网站标题
     description: '智能金融！主打的就是一个智能',
     base: '/', //默认路径
+    port: '8114',
     head: [
         // 设置 favor.ico，.vuepress/public 下
         [
@@ -23,7 +24,11 @@ export default {
             },
             {
                 text: '简介',
-                link: '/guide'
+                link: '/Guide'
+            },
+            {
+                text: '开发笔记',
+                children: [{ text: '构建SQL', link: '/Script/SQL.md' }]
             }
         ],
         home: '/',
