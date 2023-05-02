@@ -3,7 +3,7 @@ import { defaultTheme } from 'vuepress'
 export default {
     title: 'SmartFinanceX', // 设置网站标题
     description: '智能金融！主打的就是一个智能',
-    base: '/sfx-docs/', //默认路径
+    base: '/', //默认路径
     port: '8114',
     head: [
         // 设置 favor.ico，.vuepress/public 下
