@@ -37,4 +37,9 @@ export default {
         notFound: ["404了，联系AntiOxidant让他去改吧"],
         backToHome: ["返回首页"],
     }),
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
 }
