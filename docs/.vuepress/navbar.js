@@ -43,7 +43,7 @@ export default [
     {
         text: '📕开发笔记',
         children: [
-            { text: '创建数据库', link: '/Script/SQL.md' }
+            { text: '创建数据库', link: '/Script/SQL.md' },
             { text: '财务信息', link: '/Script/categoryid_categoryname.md' }
         ]
     }
