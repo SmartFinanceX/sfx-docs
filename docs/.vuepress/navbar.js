@@ -6,7 +6,7 @@ export default [
                 text: "公司信息接口",
                 children: [
                     {
-                        text: '没想好',
+                        text: '信息接口',
                         link: '/API/1.md'
                     },
                     '/API/2.md']

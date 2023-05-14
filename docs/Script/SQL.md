@@ -65,7 +65,62 @@ CREATE TABLE `inc_basic_info` (
 - 类型: `String`
 - 数据库存储类型:`text`
 
-#### 
+### 索引库
 
 
+
+- 创建基础信息索引库
+
+```json
+PUT /inc
+{
+  "mappings": {
+    "properties": {
+      "ticker":{
+        "type": "keyword",
+        "copy_to": "all"
+      },
+      "stockName":{
+        "type": "text",
+        "analyzer": "ik_max_word",
+        "copy_to": "all"
+      },
+      "fullName":{
+        "type": "text",
+        "analyzer": "ik_max_word",
+        "copy_to": "all"
+      },      
+      "description":{
+        "type": "text",
+        "analyzer": "ik_max_word",
+        "copy_to": "all"
+      },
+      "listDate":{
+        "type": "date"
+      },
+      "industryClass":{
+        "type": "keyword"
+      },
+      "all":{
+        "type":"text",
+        "analyzer": "ik_max_word"
+      }
+    }
+  }
+}
+```
+
+
+
+### 财务信息表
+
+- 根据不同种类的财务数值和公司代码，将获取的财务信息按照json格式存储。
+
+```sql
+CREATE TABLE `inc_finc_info` (
+  `ticker` varchar(16) DEFAULT NULL COMMENT '股票代码',
+  `category` smallint DEFAULT NULL COMMENT '类型编号',
+  `finanace_data` json DEFAULT NULL COMMENT '财报'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 
