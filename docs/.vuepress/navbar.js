@@ -44,7 +44,16 @@ export default [
         text: '📕开发笔记',
         children: [
             { text: '创建数据库', link: '/Script/SQL.md' },
-            { text: '财务信息', link: '/Script/categoryid_categoryname.md' }
+            { text: '财务信息', link: '/Script/categoryid_categoryname.md' },
+            {
+                text: "周报",
+                children: [
+                    {
+                        text: '十三周周报',
+                        link: '/report/week13.md',
+                    }
+                ]
+            }
         ]
     }
 ]
