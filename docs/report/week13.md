@@ -61,8 +61,17 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 ### 后端
 （示例）
 - 使用Spring Gateway 完成了开发环境网关配置。Commit: [feat gateway · SmartFinanceX/sfx-backend@d2455cf (github.com)](https://github.com/SmartFinanceX/sfx-backend/commit/d2455cfa1fbd7536d59c4956b5552d5a8369f28f)
+  
+
+![image-20230515232648664](./image-20230515232648664.png)
 
 
 ### 数据分析
 
 ### 数据获取
+
+## 下周计划
+
+>  自己还有哪些工作没完成?
+>
+> 下周计划？
