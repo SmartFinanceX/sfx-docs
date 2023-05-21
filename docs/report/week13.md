@@ -77,6 +77,11 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 
 ### 数据分析
 
+- 优化预测模型
+  - 理论优化采用了指数模型，指数倒数等模型，通过计算R系数来决定采用那种模型；实践还在做
+- 套用公式实现更多接口
+  - 未实现
+
 ### 数据获取
 
 ## 下周计划
@@ -93,3 +98,7 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 
 - 修复一些bug
 - 自动化调用python脚本进行分析。
+
+### 数据分析
+
+- 完成上周未完成的任务，对模型进行进一步优化
