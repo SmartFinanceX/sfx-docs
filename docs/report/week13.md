@@ -84,6 +84,10 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 
 ### 数据获取
 
+继续学习git操作
+优化了地址格式（文档地址在代码开头全部给出），优化了代码结构，删除了一些冗余代码和注释
+（https://github.com/SmartFinanceX/sfx-crapper/commit/0e46989d62aa8a8541ad6b47f195c6060ac5eee5）
+
 ## 下周计划
 
 >  自己还有哪些工作没完成?
@@ -102,3 +106,5 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 ### 数据分析
 
 - 完成上周未完成的任务，对模型进行进一步优化
+### 数据获取
+- 爬取部分公司股价信息
