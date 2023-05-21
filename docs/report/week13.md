@@ -57,9 +57,6 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 ## 进度汇报
 写自己完成的具体代码，以及Github仓库的Commit号
 ### 前端
-- 对chart.js进行了学习，用chart.js表示一定的表格形式，例如折线图。Commit:https://github.com/SmartFinanceX/sfx-frontend/blob/main/tubiao.html
-
-![image2023-05-21前端.png](./image2023-05-21前端.png)
 
 ### 后端
 
@@ -78,18 +75,19 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 ### 数据分析
 
 ### 数据获取
-
+继续学习git操作
+优化了地址格式（文档地址在代码开头全部给出），优化了代码结构，删除了一些冗余代码和注释
+（https://github.com/SmartFinanceX/sfx-crapper/commit/0e46989d62aa8a8541ad6b47f195c6060ac5eee5）
 ## 下周计划
 
 >  自己还有哪些工作没完成?
 >
 > 下周计划？
 
-### 前端
-- 完善界面布局
-- 优化配色
-
 ### 后端
 
 - 修复一些bug
 - 自动化调用python脚本进行分析。
+
+### 数据获取
+- 爬取部分公司股价信息
