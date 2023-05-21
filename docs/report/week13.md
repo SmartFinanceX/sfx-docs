@@ -57,6 +57,9 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 ## 进度汇报
 写自己完成的具体代码，以及Github仓库的Commit号
 ### 前端
+- 对chart.js进行了学习，用chart.js表示一定的表格形式，例如折线图。Commit:https://github.com/SmartFinanceX/sfx-frontend/blob/main/tubiao.html
+
+![image2023-05-21前端.png](./image2023-05-21前端.png)
 
 ### 后端
 
@@ -81,6 +84,10 @@ By [AntiO2 (AntiO₂) (github.com)](https://github.com/AntiO2)
 >  自己还有哪些工作没完成?
 >
 > 下周计划？
+
+### 前端
+- 完善界面布局
+- 优化配色
 
 ### 后端
 
