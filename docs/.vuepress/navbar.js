@@ -51,6 +51,10 @@ export default [
                     {
                         text: '十三周周报',
                         link: '/report/week13.md',
+                    },
+                    {
+                        text: '十四周周报',
+                        link: '/report/week14.md',
                     }
                 ]
             }
