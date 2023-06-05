@@ -16,11 +16,11 @@ export default [
                 children: [
                     {
                         text: '普通用户',
-                        link: '/api/u1.md'
+                        link: '/API/u1.md'
                     },
                     {
                         text: '管理员',
-                        link: '/api/u2.md'
+                        link: '/API/u2.md'
                     },
 
                 ]
@@ -30,7 +30,7 @@ export default [
                 children: [
                     {
                         text: "状态码",
-                        link: "/api/code.md"
+                        link: "/API/code.md"
                     },
                 ]
             }
@@ -43,8 +43,9 @@ export default [
     {
         text: '📕开发笔记',
         children: [
-            { text: '创建数据库', link: '/Script/SQL.md' },
-            { text: '财务信息', link: '/Script/categoryid_categoryname.md' },
+            { text: '创建数据库', link: '/script/info.md' },
+            { text: '财务信息', link: '/script/categoryid_categoryname.md' },
+            '/script/auth.md',
             {
                 text: "周报",
                 children: [
@@ -55,6 +56,10 @@ export default [
                     {
                         text: '十四周周报',
                         link: '/report/week14.md',
+                    },
+                    {
+                        text: '十五周周报',
+                        link: '/report/week15.md',
                     }
                 ]
             }
