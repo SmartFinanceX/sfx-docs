@@ -2,3 +2,4 @@ node_modules
 .temp
 .cache
 node_modules/
+**/dist
