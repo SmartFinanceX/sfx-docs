@@ -60,7 +60,9 @@ export default [
                     {
                         text: '十五周周报',
                         link: '/report/week15.md',
-                    }
+                    },
+                    '/report/week16.md',
+
                 ]
             }
         ]
