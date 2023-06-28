@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-53fdbade","path":"/API/code.html","title":"状态码","lang":"zh-CN","frontmatter":{"title":"状态码"},"headers":[],"git":{"updatedTime":1687925226000,"contributors":[{"name":"AntiO2","email":"1219935161@qq.com","commits":2},{"name":"AntiO2","email":"antio2@qq.com","commits":1}]},"filePathRelative":"API/code.md"}');export{t as data};
