@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-4cb61556","path":"/API/2.html","title":"分析预测接口","lang":"zh-CN","frontmatter":{"title":"分析预测接口"},"headers":[],"git":{"updatedTime":1687925226000,"contributors":[{"name":"AntiO2","email":"1219935161@qq.com","commits":1},{"name":"AntiO2","email":"antio2@qq.com","commits":1}]},"filePathRelative":"API/2.md"}');export{t as data};
