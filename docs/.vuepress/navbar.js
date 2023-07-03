@@ -6,10 +6,14 @@ export default [
                 text: "公司信息接口",
                 children: [
                     {
-                        text: '信息接口',
+                        text: '基础信息接口',
                         link: '/API/1.md'
                     },
-                    '/API/2.md']
+                    {
+                        text: '财务数据分析',
+                        link: '/API/2.md'
+                    }
+                ]
             },
             {
                 text: "用户接口",
