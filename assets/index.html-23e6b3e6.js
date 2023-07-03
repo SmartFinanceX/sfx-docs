@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as n}from"./framework-c4f3d865.js";const r={},s=e("h2",{id:"这里放接口文档",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里放接口文档","aria-hidden":"true"},"#"),n(" 这里放接口文档")],-1),o=[s];function _(d,i){return a(),c("div",null,o)}const l=t(r,[["render",_],["__file","index.html.vue"]]);export{l as default};
