@@ -4,11 +4,11 @@ heroImage: /logo.png
 heroText: 上市公司财务分析系统🦄
 tagline: 
 actions:
-  - text: 🚀快速上手
+  - text: 🚀项目简介
     link: /Guide
     type: primary
-  - text: 🔍查看文档
-    link: /api
+  - text: 🔍部署指南
+    link: /script
     type: secondary
 features:
   - title: 🐟摸鱼

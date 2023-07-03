@@ -47,6 +47,7 @@ export default [
     {
         text: '📕开发笔记',
         children: [
+            { text: '部署指南', link: '/script' },
             { text: '创建数据库', link: '/script/info.md' },
             { text: '财务信息', link: '/script/categoryid_categoryname.md' },
             '/script/auth.md',
