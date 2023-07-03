@@ -1,6 +1,12 @@
 ##  说明
 
 以下均使用MySQL建表
+## 创建数据库
+
+测试环境
+```shell
+sudo docker run -itd --name sfx-db -p 9980:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
+```
 
 ## 用户及权限系统
 
